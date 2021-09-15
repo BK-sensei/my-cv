@@ -60,11 +60,11 @@ nav{
 
 .titre{
     width: 100%;
-    height: 250px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 100px;
+    padding: 40px;
 }
 
 img{
@@ -111,11 +111,6 @@ ul{
 }
 
 /* FORMATIONS */
-
-.diplome{
-    display: flex;
-    justify-content: space-between;
-}
 
 /* PASSIONS */
 
