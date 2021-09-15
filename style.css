@@ -1,0 +1,95 @@
+/* CV REBECCA */
+
+*{
+    margin: 0px;
+    padding:0px;
+    }
+
+@font-face {
+    font-family: poppins;
+    src: url(/Users/rebeccakaci/Desktop/KONEXIO/HTML-CSS/my-cv/fonts/poppins.ttf);
+}
+
+body{
+    font-family: poppins;
+}
+
+.blue{
+    background-color: #0475ba;
+}
+
+.white{
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.pad{
+    padding: 40px 300px 40px 300px;
+}
+
+/* HEADER */
+
+header{
+    height: 72px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding-left: 30px;
+}
+
+nav{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* TITRE */
+
+.titre{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px darkgray;
+}
+
+.nom{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.titre h3{
+    color: #0475ba;
+}
+
+/* PRESENTATION */
+
+.title{
+    margin-bottom: 30px;
+}
+
+/* EXPERIENCES PRO */
+
+/* FORMATIONS */
+
+/* PASSIONS */
+
+/* FOOTER */
+
+footer{
+    padding: 40px;
+}
