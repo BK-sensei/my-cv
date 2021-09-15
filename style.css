@@ -10,6 +10,11 @@
     src: url(/Users/rebeccakaci/Desktop/KONEXIO/HTML-CSS/my-cv/fonts/poppins.ttf);
 }
 
+@font-face {
+    font-family: poppins-medium;
+    src: url(/Users/rebeccakaci/Desktop/KONEXIO/HTML-CSS/my-cv/fonts/Poppins-Medium.ttf);
+}
+
 body{
     font-family: poppins;
 }
@@ -29,6 +34,10 @@ a{
 
 .pad{
     padding: 40px 300px 40px 300px;
+}
+
+h3{
+    font-family: poppins-medium;
 }
 
 /* HEADER */
@@ -72,19 +81,41 @@ img{
     gap: 20px;
 }
 
-.titre h3{
+.titleblue{
     color: #0475ba;
 }
 
 /* PRESENTATION */
 
 .title{
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+ul{
+    padding-left: 30px;
 }
 
 /* EXPERIENCES PRO */
 
+.exp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.exp-pro{
+    line-height: 2.5;
+}
+
+.title-exp{
+    font-family: poppins-medium;
+}
+
 /* FORMATIONS */
+
+.diplome{
+    display: flex;
+    justify-content: space-between;
+}
 
 /* PASSIONS */
 
@@ -92,4 +123,15 @@ img{
 
 footer{
     padding: 40px;
+    display: flex;
+    gap: 250px;
+}
+
+.blog{
+    display: flex;
+    flex-direction: column;
+}
+
+footer a{
+    text-decoration: underline;
 }
